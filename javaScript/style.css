@@ -1,0 +1,90 @@
+* {
+        /* peguei isso do "titulo p", mas como dava pra usar universalmente, bem melhor */
+        user-select: none;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.nome, button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome {
+    margin: 15px;
+}
+
+button {
+    border: 2px green solid;
+    border-radius: 1px;
+    padding: 2px 5px;
+    background-color: #b8aab8;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #b400b4;
+}
+
+#buttonCreateMessage {
+    padding: 20px;
+    border: 2px solid green;
+    background-color: limegreen;
+    width: fit-content;
+}
+
+#buttonCreateMessage:hover {
+    cursor: pointer;
+    background-color: lime;
+}
+
+.buttonBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#create {
+    text-align: center;
+}
+
+.secao {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    /* overflow indica a visibilidade do conteudo na caixa, 
+    nesse caso (hidden) esconde o conteudo excedente que ficaria fora da caixa */
+}
+
+.titulo {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.titulo p {
+    text-align: center;
+    /* ainda aparece a seleção de texto quando clica na mensagem de abrir/fechar, tentar resolver */
+    user-select: none;
+    /* serve pra colocar em todos, aplicado universalmente lá em cima */ 
+}
+
+
+
+.conteudo {
+    padding: 10px;
+    display: none;
+    /* Inicialmente escondido */
+}
+
+.conteudo p {
+    text-align: center;
+}
