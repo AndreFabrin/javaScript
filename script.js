@@ -26,12 +26,3 @@ function toggleSecao() {
   // o === é diferente de == ou = mas isso é só decorar mesmo, n tem jeito fi
   
 
-
-/* o que sao as variaveis do javascript?
-
-const a = 0
-let a = 0
-
-são a mesma coisa?
-o "const" nao pode ser alterado
-o let permite alteracao*/
