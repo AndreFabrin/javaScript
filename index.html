@@ -19,7 +19,7 @@
         <h1>Teste de Ferramentas JavaScript</h1>
     </header>
     <section class="nome">
-        <h2>Primeiramente, clique na caixa abaixo para se identificar</h2>
+        <h2>clique na caixa abaixo para se identificar</h2>
         <button type="button">Nome:</button>
     </section>
 
@@ -41,8 +41,21 @@
             </div>
         </div>
     </section>
-    <script src="script.js"></script>
 
+    <section class="sec-calculadora">
+        <div class="div-calculadora">
+            <p class="text-calculadora">
+                selecione os valores:
+            </p>
+            <input type="text" id="valor1">
+            <input type="text" id="valor2">
+            <input type="text" id="operacao">
+            <button type="button" id="calcular" onclick="calcular()">calcular</button>
+            <p id="resultado">a</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -25,4 +25,13 @@ function toggleSecao() {
 }
   // o === é diferente de == ou = mas isso é só decorar mesmo, n tem jeito fi
   
-
+function calcular() {
+  var valor1 = document.getElementById("valor1");
+  var valor2 = document.getElementById("valor2");
+  if (operacao = "+") {
+    var result = valor1 + valor2;
+    document.getElementById("resultado").document.write() = result;
+  } else {
+    document.getElementById("resultado").document.write() = "krl";
+  }
+}
